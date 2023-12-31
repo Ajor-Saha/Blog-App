@@ -8,7 +8,7 @@ export default defineConfig({
       overlay: false,
     },
     proxy: {
-      '/api': 'http://localhost:4000',
+      '/api': 'https://blog-app-six-pink.vercel.app',
     },
   },
   plugins: [react()],
