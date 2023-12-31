@@ -5,13 +5,13 @@ import HomePage from "./pages/home/HomePage";
 import ArticleDetailPage from "./pages/articleDetail/ArticleDetailPage";
 import RegisterPage from "./pages/register/RegisterPage";
 import { Toaster } from "react-hot-toast";
-import LoginPage from "./pages/login/loginPage";
 import ProfilePage from "./pages/profile/ProfilePage";
 import AdminLayout from "./pages/admin/AdminLayout";
 import Admin from "./pages/admin/screens/Admin";
 import Comment from "./pages/admin/screens/comments/Comment";
 import ManagePosts from "./pages/admin/screens/posts/ManagePosts";
 import EditPost from "./pages/admin/screens/posts/EditPost";
+
 
 function App() {
   
@@ -35,5 +35,6 @@ function App() {
     </div>
   );
 }
+import LoginPage from "./pages/login/LoginPage";
 
 export default App;
